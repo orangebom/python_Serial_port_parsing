@@ -1,0 +1,310 @@
+[15:50:43.669]收←◆************ ---LORAWAN_NODE 开发板程序 V2.00  2017.02.10--- ************
+请通过 开发板 K1 按键进行模式选择: 
+ 1、命令模式
+ 2、透传模式
+ 3、定时发送传感器数据
+ 4、低功耗定时发送模式
+ ·提示: 在2、3模式下可通过 K2 按键来打开和关闭模块的调试信息输出 
+ ·提示: 需要使能液晶和GPS功能，请在连接GPS后输入‘YES’(仅该状态下有效)， 
+         关闭请输入‘OFF’，系统会保存GPS使能状态，不用每次上电后选择。 
+****************** ----------------------------------- ******************
+
+[15:50:44.183]收←◆【已进入命令模式】
+
+[15:50:44.645]收←◆【已进入透传模式】
+
+[15:50:45.384]收←◆--> 模块网络模式 : OTAA 
+--> 模块 Join 中··
+[15:50:45.980]收←◆·
+[15:50:46.577]收←◆·
+[15:50:47.175]收←◆·
+[15:50:47.772]收←◆·
+[15:50:48.369]收←◆·
+[15:50:48.966]收←◆·
+[15:50:49.566]收←◆
+【已进入透传模式，调试已打开】
+
+[15:50:54.975]收←◆+JOIN INFO: 0, 81, [0]923200000, 0, 9, 20, -68, 6
+
+--> 网络已连接
+
+[15:50:57.107]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+□
+[15:50:59.237]收←◆--> 数据发送成功
+
+[15:50:59.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 0,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 1,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 1,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:00.571]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:03.237]收←◆--> 数据发送成功
+
+[15:51:03.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 1,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 2,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 2,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +6,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:04.115]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:07.237]收←◆--> 数据发送成功
+
+[15:51:07.551]收←◆
+[UP] Cfm_Stat: 0,UpCnt: 2,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 0,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
+
+[DN] Ind_Stat: 0,DnCnt: 3,CH0: 923200000,DR3: SF9,Port: 10,RxSlot: 0,pRSSI: -70,SNR: +5,Pend: 0,SIZE: 0,Multi: 0,Margin: 0,nGW: 0
+
+[15:51:38.012]发→◇{"id":160,"eui":"fffe6cecebd7e0f1"}
+□
+[15:51:47.132]收←◆--> 模块没有收到回复
+
+[UP] Cfm_Stat: 3,UpCnt: 3,CH0: 923200000,DR3: SF9,TxPower: 20,AckCnt: 3,PER: 2500,TOA: 328704,nbTrials: 1,BackOff: 0,cRssi: 0,Nb: 0,Band: 129
